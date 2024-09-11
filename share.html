@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=430, height=932">
+  <title>Instagram</title>
+  <!-- Start of code from https://www.w3schools.com/html/html_favicon.asp !-->
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+  <!-- End of code from https://www.w3schools.com/html/html_favicon.asp !-->
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <!-- Start of code from https://fontawesome.com/icons !-->
+  <script src="https://kit.fontawesome.com/210e747fd0.js" crossorigin="anonymous"></script>
+  <!-- End of code from https://fontawesome.com/icons !-->
+</head>
+
+<body class="body2" onload="checkEdits()">
+  <div class="hat2"></div>
+  <div class="grid3">
+    <div class="top3">
+      <div class="xbutton"><a href="next.html"><i class="fa-solid fa-chevron-left white"></i></a></div>
+      <div class="newpost3"><b>New Post</b></div>
+      <div class="nextbutton1"><b><a href="index.html">Share</a></b></div>
+    </div>
+    <div class="imgmain3">
+      <div class="capimage"><i class="fa-solid fa-clone"></i></div>
+      <p class="caption">The sky of Halloween day was really beautiful! The trick of treat was joyful. Perfect day!</p>
+    </div>
+    <div class="alttext">
+      <p class="alt">Alt Text: </p>
+      <!-- Start of code from https://www.tutorialspoint.com/enter-key-press-event-in-javascript & https://www.developerdrive.com/allowing-users-to-edit-text-content-with-html5/ -->
+      <p id="altex" class="altex" contenteditable="true" onkeypress="saveEdits()">A black and white checkered floor with a blue sky.<br>A bag of chips in a blue bag.</p>
+      <!-- End of code from https://www.tutorialspoint.com/enter-key-press-event-in-javascript & https://www.developerdrive.com/allowing-users-to-edit-text-content-with-html5/-->
+    </div>
+    <div class="tagloc">
+      <div class="tag">
+        <p>Tag people</p>
+        <i class="white fa-solid fa-chevron-right"></i>
+      </div>
+      <div class="location">
+        <p class="llloc">Add location</p>
+        <i class="white fa-solid fa-chevron-right"></i>
+      </div>
+      <div class="locations">
+        <div class="loc1">Sheridan College</div>
+        <div class="loc2">Oakville, Ontario</div>
+      </div>
+    </div>
+    <div class="addmusic">
+      <div class="music">
+        <p class="mmmusic">Add music</p>
+        <i class="white fa-solid fa-chevron-right"></i>
+      </div>
+      <div class="musics">
+        <div class="mus1"><i class="fa-solid fa-music"></i>God of Music • Seventeen</div>
+        <div class="mus2"><i class="fa-solid fa-music"></i>Cold Water • <span class="maj">Maj</span></div>
+      </div>
+    </div>
+    <div class="fundraiser">
+      <p>Add fundraiser</p>
+      <i class="white fa-solid fa-chevron-right"></i>
+    </div>
+    <div class="advance">
+      <p>Advanced settings</p>
+      <i class="white fa-solid fa-chevron-right"></i>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

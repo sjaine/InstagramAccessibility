@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=430, height=932">
+  <title>Instagram</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+  <!-- Start of code from https://www.w3schools.com/html/html_favicon.asp !-->
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+  <!-- End of code from https://www.w3schools.com/html/html_favicon.asp !-->
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <!-- Start of code from https://fontawesome.com/icons !-->
+  <script src="https://kit.fontawesome.com/210e747fd0.js" crossorigin="anonymous"></script>
+  <!-- End of code from https://fontawesome.com/icons !-->
+</head>
+
+<body>
+  <div class="hat"></div>
+  <div class="grid2">
+    <div class="top2">
+      <div class="xbutton"><a href="index.html"><i class="fa-solid fa-chevron-left"></i></a></div>
+      <div class="newpost2">
+        <img src="img/wand.svg" class="wand">
+        <img src="img/music.svg" class="music">
+      </div>
+      <div class="nextbutton1"><b><a href="share.html">Next</a></b></div>
+    </div>
+    <div id="mySwiper2" class="swiper mySwiper2 boxes ">
+      <div id="wrapper" class="swiper-wrapper wrapper" onmousemove="changeLoc()">
+        <div class="swiper-slide img img22 imgmain2" onclick="readfunction1()"></div>
+        <div class="swiper-slide img img55 imgmain2" onclick="readfunction2()"></div>
+        <i class="fa-solid fa-plus"></i>
+      </div>
+    </div>
+    <div class="middle2">
+      <!-- Start of Code from https://www.w3schools.com/jsref/event_onmousemove.asp -->
+      <div onclick="altText()" onmouseover="hover()" onmouseout="hoverOut()" class="assistant2"><img id="lightImg" class="light2" src="img/lights.svg"> <b id="assistant2">“A black and white checkered floor with a blue sky.”</b></div>
+      <!-- End of Code from https://www.w3schools.com/jsref/event_onmousemove.asp -->
+    </div>
+    <textarea type="text" id="textnext" class="textnext">Write alt text...</textarea>
+    <div class="bottom">
+      <p>Filter</p>
+      <p>Edit</p>
+      <p><b>ALT</b></p>
+    </div>
+  </div>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
