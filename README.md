@@ -6,7 +6,7 @@
 <img src="./placeholder.png" width="40%"/>
 </a>
 
-<br><br>
+<br>
 Developed an Instagram-inspired app to enhance accessibility for visually impaired users. Adjusted the position of the Alt Text setting and provided a visually impaired user-friendly interface.
 
 ## Features
