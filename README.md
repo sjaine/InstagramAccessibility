@@ -2,8 +2,11 @@
 
 <b>✸ Explore the MET's collection with ease, one artwork at a time!</b><br><br>
 
-[![Website Link](./placeholder.png)](https://jaineinstaaccessibility.netlify.app/)
+<a href="https://jaineinstaaccessibility.netlify.app/">
+<img src="./placeholder.png" width="40%"/>
+</a>
 
+<br><br>
 Developed an Instagram-inspired app to enhance accessibility for visually impaired users. Adjusted the position of the Alt Text setting and provided a visually impaired user-friendly interface.
 
 ## Features
